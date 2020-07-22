@@ -1,0 +1,20 @@
+{
+    "name": "abner_composer/hello-composer",
+    "description": "abner自己制作composer包示例",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "abner",
+            "email": "turing_zhy@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+    "psr-4": {
+      "abner_composer\\": "src/"
+    }}
+}
