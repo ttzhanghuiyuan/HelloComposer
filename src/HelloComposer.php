@@ -1,5 +1,5 @@
 <?php
-namespace tlanyan;
+namespace abner_composer;
 
 class HelloComposer
 {
